@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{47FB4F5F-E17A-46BB-95C2-DF32458E6FD8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/mapControls/MyViewController.cs">
+    <Files>
+      <File FileName="iOS/mapControls/MyViewController.cs" Line="23" Column="8" />
+      <File FileName="iOS/Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MyLittleTest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C3DF8B52-2106-4B3F-85A1-F2DC1C7BFB6F">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.MyLittleTest.iOS>
+</Properties>
