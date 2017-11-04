@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyViewController">
+            <connections>
+                <outlet property="view" destination="2" id="RRd-Eg-VrN"/>
+                <outlet property="standardButton" destination="130" id="name-outlet-130"/>
+                <outlet property="satelliteButton" destination="129" id="name-outlet-129"/>
+                <outlet property="hybridButton" destination="131" id="name-outlet-131"/>
+                <outlet property="map" destination="133" id="name-outlet-133"/>
+                <outlet property="mysearchBar" destination="132" id="name-outlet-132"/>
+                <outlet property="btnRemovePoints" destination="265" id="name-outlet-265"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <subviews>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="128" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                    <rect key="frame" x="0.0" y="548" width="591" height="44"/>
+                    <items>
+                        <barButtonItem title="standar" id="130" width="89">
+                            <connections>
+                                <action selector="StandardButton_Activated:" destination="-1" id="134"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem title="satellite" id="129" width="104">
+                            <connections>
+                                <action selector="SatelliteButton_Activated:" destination="-1" id="264"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem title="hybrid" id="131"/>
+                        <barButtonItem title="remove pins" id="265" width="109">
+                            <connections>
+                                <action selector="BtnRemovePoints_Activated:" destination="-1" id="266"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                    <color key="barTintColor" colorSpace="calibratedRGB" red="0" green="1" blue="0" alpha="1"/>
+                </toolbar>
+                <searchBar contentMode="redraw" id="132" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                    <rect key="frame" x="0.0" y="8" width="600" height="44"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="133" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" showsUserLocation="YES">
+                    <rect key="frame" x="0.0" y="60" width="592" height="488"/>
+                </mapView>
+            </subviews>
+        </view>
+    </objects>
+</document>
